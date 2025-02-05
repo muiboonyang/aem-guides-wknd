@@ -3,7 +3,6 @@
 
     <!-- Content Filters -->
     <filter root="/content/wknd" />
-    
     <!-- Changing the filter mode to merge will preserve any existing content on the target environment
     <filter root="/content/wknd" mode="merge"/>
     -->
@@ -17,13 +16,6 @@
 
     <!-- WKND Member Group-->
     <filter root="/home/groups/wknd" mode="merge" />
-    
     <!-- Sample User-->
     <filter root="/home/users/wknd" />
-
-    <!-- Example -->
-    <!--    https://medium.com/@jlanssie/setup-headless-content-delivery-and-content-creation-in-aem-cb03e08cc4d5-->
-    <filter root="/conf/wknd/settings/dam"/>
-    <filter root="/content/cq:graphql/wknd"/>
-    
 </workspaceFilter>
